@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header-->
+      <div class="header">
+        <form class="form" id="search-form">
+          <input
+            class="city-search"
+            id="city"
+            type="text"
+            placeholder="Enter a city"
+            required
+          />
+          <input class="submit" type="submit" value="search" />
+        </form>
+      </div>
+
+      <!--Main section-->
+
+      <div class="weather-body">
+        <div>
+          <h1 class="city" id="city-place"></h1>
+          <p class="info">
+            <span id="current-date"></span>,<span id="condition">Cloudy</span>
+            <br />
+            Humidity:<span id="humidity"> <strong></strong></span>,Wind:<span
+              id="wind"
+            >
+              <strong></strong
+            ></span>
+          </p>
+        </div>
+        <div class="temperature-container">
+          <div id="icon"></div>
+          <div class="value" id="current-temperature">24</div>
+          <div class="unit">°C</div>
+        </div>
+      </div>
+
+      <!--Footer section-->
+      <div class="footer">
+        This project was Coded by
+        <a href="https://github.com/Ambogo2/" target="_blank">Ambogo Musungu</a>
+        and is on
+        <a href="https://github.com/Ambogo2/" target="_blank">Github</a>
+        and is hosted on
+        <a href="#" target="_blank">Netifly</a>
+        <script src="/src/index.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

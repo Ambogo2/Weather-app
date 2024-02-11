@@ -1,0 +1,101 @@
+body {
+  background-image: url("assets/clouds.jpg");
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: gainsboro;
+  max-width: 600px;
+  height: 450px;
+  margin: 40px auto;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.city-search {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff3cf;
+  width: 50%;
+}
+.submit {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ff8080;
+  color: white;
+  width: 30%;
+  margin-left: 10px;
+}
+.submit:hover {
+  cursor: pointer;
+  color: black;
+}
+main {
+  padding: 30px 0;
+}
+.weather-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.city {
+  line-height: 48px;
+  padding-top: 20px;
+  font-size: 40px;
+  margin: 0;
+}
+.info {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 18px;
+  color: black;
+}
+.info strong {
+  color: palevioletred;
+}
+.temperature-container {
+  display: flex;
+}
+.emoji {
+  width: 88px;
+  height: 88px;
+}
+.value {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 88px;
+}
+.unit {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-date {
+  font-size: 16px;
+}
+.forecast-temp {
+  font-size: 13px;
+}
+
+.footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: #ff8080;
+}
