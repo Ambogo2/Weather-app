@@ -7,4 +7,4 @@ The aim of the project was to create a fully functional app with pure css html a
 # Heading 2
 # Heading 3
 # Heading 4
-# Heading 6
+# Heading 6 {#Heading6}
